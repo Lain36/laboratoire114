@@ -15,21 +15,23 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        val rollButton : Button = findViewById(R.id.Button)
+        val rollButton: Button = findViewById(R.id.Button)
         rollButton.setOnClickListener {
             rollDice()
         }
 
-
+        // commentaire
 
     }
+
     private fun rollDice() {
         val dice = Dice(6)
-        val diceRoll=dice.roll()
+        val diceRoll = dice.roll()
         val diceImage: ImageView = findViewById(R.id.imageView2)
         diceImage.setImageResource(R.drawable.dice_2)
     }
 }
+
 class Dice(val numSides: Int) {
     fun roll(): Int {
         return (1..numSides).random()
