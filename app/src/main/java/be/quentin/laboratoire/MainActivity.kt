@@ -20,6 +20,8 @@ class MainActivity : AppCompatActivity() {
             rollDice()
         }
 
+
+
     }
     private fun rollDice() {
         val dice = Dice(6)
