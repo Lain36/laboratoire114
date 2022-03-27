@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Laboratoire</string>
+    <string name="joyen_aniversaire_text">Dice Roller</string>
+    <string name="signature_text">Quentin Bernard Bouissieres</string>
+    <string name="roll">Roll</string>
+
+</resources>
